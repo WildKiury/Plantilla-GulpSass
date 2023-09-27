@@ -17,12 +17,12 @@ Las 3 cosas a modificar
     author: name
 -----------------------------------------------------------------------
 El resto se cuenta solo al ver el gulpfile.js
------------------------------------------------------------------------
+
     npm install
 
 
    Dependencias de Desarrollo
----------------------------------------------------------------
+
     npm i sass --save-dev
     npm i -D gulp
 
@@ -34,17 +34,16 @@ El resto se cuenta solo al ver el gulpfile.js
 ---------------------------------------------------------------
    JS 
 ---------------------------------------------------------------
-npm i --save-dev terser
-npm i --save-dev gulp-terser-js
+    npm i --save-dev terser
+    npm i --save-dev gulp-terser-js
 
-npm i --save-dev gulp-rename
-npm i --save-dev gulp-concat
+    npm i --save-dev gulp-rename
+    npm i --save-dev gulp-concat
+--------------------------------------------------------------
+   Imagenes
 ---------------------------------------------------------------
-    Imagenes
----------------------------------------------------------------
-npm i --save-dev gulp-clean
-npm i --save-dev gulp-cache
-npm i --save-dev gulp-imagemin@7.1.0
-npm i --save-dev gulp-webp
-
+    npm i --save-dev gulp-clean
+    npm i --save-dev gulp-cache
+    npm i --save-dev gulp-imagemin@7.1.0
+    npm i --save-dev gulp-webp
 ---------------------------------------------------------------

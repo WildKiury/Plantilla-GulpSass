@@ -1,0 +1,28 @@
+npm init { ------> package.json
+    description: Lo que quieras ponerle
+    keywords: SASS, GULP
+    author: name
+}
+
+node_modules {
+    npm install
+}
+
+npm i sass --save-dev
+npm i -D gulp
+
+npm i --save-dev gulp-sass
+npm i --save-dev gulp-plumber
+npm i --save-dev gulp-sourcempas
+
+npm i --save-dev cssnano autoprefixer postcss gulp-postcss
+
+npm i --save-dev gulp-clean
+npm i --save-dev gulp-cache
+npm i --save-dev gulp-imagemin@7.1.0
+npm i --save-dev gulp-webp
+
+npm i --save-dev terser
+npm i --save-dev gulp-terser-js
+npm i --save-dev gulp-rename
+npm i --save-dev gulp-concat

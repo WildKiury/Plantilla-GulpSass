@@ -20,9 +20,9 @@ El resto se cuenta solo al ver el gulpfile.js
 
     npm install
 
-
+-----------------------------------------------------------------------
    Dependencias de Desarrollo
-
+-----------------------------------------------------------------------
     npm i sass --save-dev
     npm i -D gulp
 

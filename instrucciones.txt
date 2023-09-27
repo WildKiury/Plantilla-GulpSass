@@ -1,6 +1,6 @@
 npm init { ------> package.json
     description: Lo que quieras ponerle
-    keywords: SASS, GULP
+    keywords: SASS, GULP (esto es opcional)
     author: name
 }
 

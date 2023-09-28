@@ -1,7 +1,7 @@
-@import 'base/normalize';
-@import 'base/globales';
-@import 'base/mixins';
-@import 'base/variables';
+@use 'base/normalize';
+@use 'base/globales';
+@use 'base/mixins';
+@use 'base/variables';
 
 /*          UI         */
-@import 'layout/header';
+@use 'layout/header';

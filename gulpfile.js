@@ -57,7 +57,7 @@ function javascript(){
         .pipe(dest('./build/js')) 
 }
 
-function imgages() {
+function images() {
     return src(paths.images)
         .pipe(cache(imagemin({ optimizationLevel: 3 })))
         .pipe(dest('build/img'))
@@ -77,13 +77,7 @@ function dev(done) {
         watch(paths.js, javascript); // -------> Ejecutar la funcion javascript
     done();
 }
-function oneUse(done) {
-        watch(paths.images, imgages) // -----> Imagenes
-        watch(paths.images, Towebp)  // -----> Imagens a Webp
-
-    done();
-}
 
 exports.dev = dev; // -----> css, js
-exports.oneUse = oneUse; // -----> imagenes 
-exports.dev2 = parallel(css, javascript, imgages, Towebp, dev)
+exports.oneUse = parallel(images, Towebp); // -----> imagenes 
+exports.dev2 = parallel(css, javascript, images, Towebp, dev)
